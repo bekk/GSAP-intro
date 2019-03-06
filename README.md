@@ -1,4 +1,4 @@
 # GSAP-intro
 
-* **npm i**
-* **npm run watch**
+- `npm i`
+- `npm run watch`
