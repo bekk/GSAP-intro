@@ -6,9 +6,7 @@ module.exports = {
     "oppgave2/processed.css": ["./oppgave2/oppgave2.scss"],
     "oppgave3/processed.css": ["./oppgave3/oppgave3.scss"],
     "oppgave4/processed.css": ["./oppgave4/oppgave4.scss"],
-    "ferdigEksempel/ferdigEksempel.css": [
-      "./ferdigEksempel/ferdigEksempel.scss"
-    ]
+    "ferdigEksempel/processed.css": ["./ferdigEksempel/ferdigEksempel.scss"]
   },
   output: {
     filename: "[name]",
