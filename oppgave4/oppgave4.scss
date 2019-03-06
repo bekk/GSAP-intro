@@ -1,0 +1,31 @@
+$red: #9d2527;
+$yellow: #ffe2bd;
+
+body {
+  font-family: Helvetica;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-color: $red;
+  width: 150px;
+  height: 60px;
+
+  .headline {
+    cursor: pointer;
+    font-size: 20px;
+    color: $yellow;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .content {
+    opacity: 0;
+  }
+}
