@@ -1,13 +1,3 @@
-/*
-
-BASIC TWEEN
-
-https://greensock.com/get-started-js#tweening-basics
-
-Prøv å animere endring av bakgrunnsfarge på boksen og overskrifta.
-
-*/
-
 (function init() {
   const container = document.querySelector(".container");
   const headline = document.querySelector(".headline");
@@ -18,8 +8,6 @@ Prøv å animere endring av bakgrunnsfarge på boksen og overskrifta.
 })();
 
 function animate(container, headline) {
-  // Kode
-
   TweenMax.to(container, 2, {
     backgroundColor: "#f6f6f6"
   });
